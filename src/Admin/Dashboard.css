@@ -1,0 +1,66 @@
+.container-fluid {
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  aside {
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  
+  aside h2 {
+    cursor: pointer;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: tomato;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+  }
+  
+ 
+  
+  .col-lg-9 {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2, h3 {
+    margin-top: 0;
+  }
+
+  
+@media (max-width: 480px) {
+  .container-fluid {
+      padding: 10px;
+  }
+
+  h2 {
+      font-size: 1.25rem; 
+  }
+
+  aside {
+      padding: 5px; 
+  }
+
+  aside button {
+      font-size: 0.8rem;
+  }
+}

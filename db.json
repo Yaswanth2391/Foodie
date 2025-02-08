@@ -1,0 +1,50 @@
+{
+  "users": [
+    {
+      "id": "71f5",
+      "name": "Yaswanth Pemmadi",
+      "email": "pemmadiyaswanth2001@gmail.com",
+      "password": "Yash@2001"
+    },
+    {
+      "id": "9b83",
+      "name": "rajkumar",
+      "email": "rajkumar@gmail.com",
+      "password": "Raj@1122"
+    },
+    {
+      "id": "4a7e",
+      "name": "Deepa Akula",
+      "email": "Deepa08@gmail.com",
+      "password": "Deepa@23"
+    }
+  ],
+  "dishes": [
+    {
+      "id": "376b",
+      "dishName": "Chicken Tikka",
+      "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAIIA6AMBIgACEQEDEQH/xAAbAAADAAMBAQAAAAAAAAAAAAAEBQYAAwcCAf/EAD4QAAIBAwMCBAMFBgYCAQUAAAECAwAEEQUSITFBBhNRYSJxgRQyQpGhFSNSscHRBzND4fDxJHJiFjSSstL/xAAZAQACAwEAAAAAAAAAAAAAAAADBAECBQD/xAAqEQACAgEEAQQCAAcAAAAAAAABAgARAwQSITETIjJBURRhBSMzcaGx4f/aAAwDAQACEQMRAD8AsZbiMHZGOQfvHsfQDvWv7Pd3Em+R/gHaT/8AkcCio4o1RQFy+OM/hrJ7lLe2knldUjiBY4HXHahVcZ3fUy7uraxtQ87BVA+FQOWPoB3qf1HxBcgL9okh0u2JzmRg0rD0wOBWXd2bKGTUr5Ua9lRjawMeI1A/n61Gxf8AnyxXWoulzdFs7EJAQH1OT+XSg58vjFRzTYN521OnS3FncWqvPcQeVImT5hGCKjdXuJfCmpomjTs0NwAzROAyJk9VoWSKO2QbEC5AIYchTn+dC3GmxzLOkwGyUEwsrZYMf5Y/rSv5jEV9xwaFcZ7ubNds5/EVmtxcXcrzxLmPOOckZCgAD+XTvUve6BeWQV2uJCSgYYVlyCecjtgVV6Reg2lskzR+crvCzxjOSvI+uCP1pk9z9pgFt8UiPksx7dh8vX6UsM+RTTRg4MeVTt4kIkl5agSnYR91Hcg4PuBz9a9Q6y1x51usDXFzKQqqmSMeoPOPzqgufDyRafPJdObgyEsIkyqqSew+tC2dg0FtGunFkcpmU",
+      "price": "249",
+      "description": "Chicken tikka",
+      "category": "fry items"
+    }
+  ],
+  "orders": [
+    {
+      "status": "Delivered",
+      "id": "3326"
+    },
+    {
+      "status": "On the Way",
+      "id": "da5a"
+    },
+    {
+      "status": "Delivered",
+      "id": "e195"
+    },
+    {
+      "status": "Delivered",
+      "id": "a4ad"
+    }
+  ]
+}

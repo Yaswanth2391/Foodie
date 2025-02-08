@@ -1,0 +1,106 @@
+.header {
+    width: 100%;
+    height: 35vw; 
+    margin: 30px auto;
+    background: url('/public/header_img\ copy.png') no-repeat center center; 
+    background-size: cover;
+    position: relative;
+}
+
+.header-contents {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    gap: 1.5vw;
+    max-width: 50%;
+    margin-top: 7%;
+   
+    left: 6vw;
+    animation: fadeIn 3s;
+}
+
+.header-contents h2 {
+    color: rgb(154, 220, 87);
+    font-size: max(2vw, 16px); 
+}
+.header-contents h4 {
+    color: tomato;
+    font-size: max(2vw, 16px); 
+}
+
+.header-contents h3 {
+    font-weight: 500;
+    color: white;
+    font-size: max(4.0vw, 22px);
+}
+
+.header-contents p {
+    color: tomato;
+    font-size: max(1vw, 14px); /* Responsive font size */
+}
+
+.header-contents button {
+    border: none;
+    color: #000000;
+    font-weight: 500;
+    padding: max(1vw, 10px) max(2.3vw, 15px); /* Responsive padding */
+    background-color: rgb(162, 233, 108);
+    font-size: max(1vw, 13px);
+    border-radius: 50px;
+    cursor: pointer; /* Add pointer cursor for better UX */
+}
+
+
+@media (max-width: 1080px) {
+    .header {
+        height: 38vw;
+    }
+    .header-contents {
+        max-width: 45%;
+    }
+}
+
+@media (max-width: 720px) {
+    .header-contents {
+        max-width: 75%;
+    }
+    .header-contents p {
+        max-width: 75%; /* Hide paragraph on smaller screens */
+    }
+    .header-contents button {
+        padding: max(2vw, 12px) max(4vw, 20px); /* Responsive padding */
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        height: 50vw; 
+    }
+    .header-contents {
+        max-width: 90%; 
+        left: 5vw; 
+    }
+    .header-contents p {
+     max-width: auto; 
+    }
+    .header-contents button {
+        padding: max(3vw, 10px) max(5vw, 15px); 
+        font-size: max(4vw, 12px); 
+    }
+}
+
+@media (max-width: 320px) {
+    .header {
+        height: 50vw; 
+    }
+    .header-contents h3 {
+        font-size: max(3vw, 12px); 
+    }
+    .header-contents h2, .header-contents h4 {
+        font-size: max(3vw, 12px); 
+    }
+    .header-contents p {
+        max-width: 100%;
+    }
+}

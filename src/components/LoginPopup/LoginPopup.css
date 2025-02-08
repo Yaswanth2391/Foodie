@@ -1,0 +1,137 @@
+
+.login-popup {
+  text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+  }
+
+  .login-popup img{
+    width: 50%;
+  }
+
+ 
+  
+  .login-popup-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%; 
+    max-width: 400px; 
+    text-align: center;
+  }
+  
+  .login-popup-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .login-popup-title h2 {
+    margin: 0;
+  }
+  
+  .login-popup-input {
+    margin: 20px 0;
+  }
+  .login-popup-title img{
+    width: 20px;
+  }
+  .login-popup-input input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(255, 99, 71);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+ 
+  
+  .login-popup-condition {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  
+  .login-popup-condition p {
+    margin-left: 10px;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  span {
+    color: rgb(255, 99, 71);
+    cursor: pointer;
+  }
+  
+  span:hover {
+    text-decoration: underline;
+  }
+  
+
+  @media (max-width: 600px) {
+    .login-popup-container {
+      padding: 15px;
+    }
+  
+    button {
+      padding: 8px;
+    }
+  
+    .login-popup-input input {
+      padding: 8px;
+    }
+  }
+  
+
+  @media (min-width: 601px) and (max-width: 900px) {
+    .login-popup-container {
+      padding: 20px;
+      width: 80%; 
+    }
+  
+    button {
+      padding: 10px;
+    }
+  
+    .login-popup-input input {
+      padding: 10px;
+    }
+  }
+  
+
+  @media (min-width: 901px) {
+    .login-popup-container {
+      padding: 25px;
+      max-width: 500px; 
+    }
+  
+    button {
+      padding: 12px;
+    }
+  
+    .login-popup-input input {
+      padding: 12px;
+    }
+  }
