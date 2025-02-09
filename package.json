@@ -1,7 +1,7 @@
 {
   "name": "foodie",
   "version": "0.1.0",
-  "homepage": "https://github.com/Yaswanth2391/Foodie.git",
+  "homepage": "https://yaswanth2391.github.io/Foodie/",
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
