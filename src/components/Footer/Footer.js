@@ -46,6 +46,7 @@ const Footer = () => {
       <hr />
       <p className="footer-copyright">
         &copy; 2024 Foodie. All rights reserved.
+        Developed by Yaswanth Pemmadi
       </p>
     </div>
   );
